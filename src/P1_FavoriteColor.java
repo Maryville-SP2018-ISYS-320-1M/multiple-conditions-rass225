@@ -7,7 +7,7 @@ Date:
 */
 
 /*  What was the error?
- 
+ "==" must be replaced with "equals" so that the code would compile.
   
  */
 
@@ -19,7 +19,7 @@ public class P1_FavoriteColor {
 		System.out.print("What is your favorite color? ");
 		String name = console.next();
 		
-		if( name == "blue") {
+		if(name.equals("blue")) {
 			System.out.println("Mine too!");
 		}
 
